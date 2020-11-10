@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Fira Mono', Arial, Helvetica, sans-serif;
+    background: url("https://wallpaperaccess.com/full/93547.jpg") center / cover fixed;
+  }
+  
+  main {
+    min-height: 100%;
+    width: 800px;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #96b3d4;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+    
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #cad8e8;
+    text-shadow: 0 0 5px black;
+  }
+  
+  section {
+    padding: 10px;
+    margin: 20px;
+    color: #0088;
+    box-shadow: 0 2px 5px #333a;
+    transition: all 0.2s;
+  }
+  
+  section:hover {
+    color: #215fa6;
+    transform: scale(1.02);
+  }
+  
+  section#hobbies {
+    background: #acdee3;
+  }
+  
+  section#foods {
+    background: #94ccd1;
+  }
+  
+  section#shows {
+    background: #70adb3;
+  }
+
+  img { 
+    width: 30%;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px gray;
+    transition: all 0.3s;
+  }
